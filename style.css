@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.banner, .footer {
+    background-color: #1f2937;
+}
+
+.banner {
+    padding: 1.25rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.title-logo, .links {
+    font-size:1.125rem;
+    color: #f9faf8;
+}
+
+.links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: .95rem;
+}
+
+.hero {
+    display: flex;
+    gap: 2.5rem;
+    color: #f9faf8;
+    gap: 3rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.banner .sign-up {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.banner .sign-up-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    width: 300px;
+}
+
+.banner .sign-up-content {
+    font-size: .8rem;
+    width: 400px;
+}
+
+.banner button {
+    border-radius: 8px;
+    width: 100px;
+    padding: .3rem .4rem;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 700;
+    box-shadow: rgb(197, 18, 18);
+}
+
+.content {
+
+}
+
+.sub-content {
+    background-color: #e5e7eb;
+}
+
+.footer {
+
+}
