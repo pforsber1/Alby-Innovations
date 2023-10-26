@@ -41,7 +41,6 @@ a {
 
 .hero {
     display: flex;
-    gap: 2.5rem;
     color: #f9faf8;
     gap: 3rem;
     justify-content: space-between;
@@ -93,11 +92,47 @@ a {
     object-fit: cover;
     object-position: right center;
     border-radius: 5px;
-    box-shadow: 
 }
 
-.content {
+.content, .sub-content, .footer {
+    color: #1f2937;
+}
 
+.content-title {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.apps {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 1.25rem;
+}
+
+.apps img {
+    width: 15%;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+}
+
+.apps .app1 {
+    width: 15%;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+.apps-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.25rem;
+}
+
+.apps-info > div {
+    width: 15%;
+    font-size: .8rem;
+    text-align: center;
 }
 
 .sub-content {
