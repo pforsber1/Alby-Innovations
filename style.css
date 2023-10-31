@@ -108,7 +108,7 @@ a {
 .apps {
     display: flex;
     justify-content: space-between;
-    padding: .5rem 1.25rem;
+    padding: .5rem 3.5rem;
 }
 
 .apps img {
@@ -126,7 +126,7 @@ a {
 .apps-info {
     display: flex;
     justify-content: space-between;
-    padding: 0 1.25rem;
+    padding: 0 3.5rem 3.75rem;
 }
 
 .apps-info > div {
